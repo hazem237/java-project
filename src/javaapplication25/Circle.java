@@ -9,7 +9,8 @@ public class Circle extends Shape{
     }
     public Circle(double raduis,Point p)
     {
-        super( p);
+        super(p);
+
         this.raduis=raduis;
         
        count++;
@@ -37,15 +38,18 @@ public class Circle extends Shape{
         return a;
         
     }
+
     @Override
     public double perimeter()
     {
         return 2*3.14*raduis;
     }
+
     public double diameter()
     {
         return 2*raduis;
     }
+
     @Override
     public String toString()
     {
